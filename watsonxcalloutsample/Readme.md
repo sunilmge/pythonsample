@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 
 ```sh
-git clone git@github.com:heroku/watsonxcalloutsample.git # or clone your own fork
+git clone git@github.com:ashashiv/pythonsample.git # or clone your own fork
 cd watsonxcalloutsample
 ./bootstrap.sh
 ```
@@ -26,7 +26,10 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## Pushing to git with changes
 
 ```
-heroku create
-git push heroku master
-heroku open
+
+git add .
+git commit -m "Making a change to .."
+git push
 ```
+## Swagger file to connect to watson assistant integration 
+``sh/static/swagger.json```
