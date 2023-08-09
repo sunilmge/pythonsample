@@ -32,4 +32,6 @@ git commit -m "Making a change to .."
 git push
 ```
 ## Swagger file to connect to watson assistant integration 
-``sh/static/swagger.json```
+```sh 
+/static/swagger.json
+```
